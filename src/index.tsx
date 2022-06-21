@@ -1,8 +1,16 @@
 /** packages */
 import { render } from 'solid-js/web';
+import { Router } from 'solid-app-router'
 
 /** compose */
-import App from './App';
+import { App } from './routes';
+
+/** main */
+const Main = () => (
+  <Router>
+    <App />
+  </Router>
+)
 
 /** render */
-render(() => <App />, document.getElementById('root') as HTMLElement);
+render(() => <Main />, document.getElementById('root') as HTMLElement);
