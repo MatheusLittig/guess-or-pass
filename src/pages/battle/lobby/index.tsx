@@ -1,6 +1,6 @@
 /** main */
 function Lobby() {
-  return <h1>hello loby</h1>
+	return <h1>hello loby</h1>
 }
 
 /** exports */

@@ -1,11 +1,11 @@
 /** main */
 function Login() {
-  return (
-    <div>
+	return (
+		<div>
       hello world
-    </div>
-  );
-};
+		</div>
+	)
+}
 
 /** exports */
-export { Login };
+export { Login }

@@ -1,11 +1,11 @@
 /** main */
 function Landing() {
-  return (
-    <div>
+	return (
+		<div>
       hello there it
-    </div>
-  );
-};
+		</div>
+	)
+}
 
 /** exports */
-export { Landing };
+export { Landing }
